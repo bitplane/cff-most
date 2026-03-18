@@ -1,11 +1,12 @@
 [project]
 name = "cff_most"
 description = "Tools for loading CFF MOST format used on the Amiga in 1988/1989"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     { name = "Gareth Davidson", email = "gaz@bitplane.net" }
 ]
 readme = "README.md"
+license = "WTFPL"
 requires-python = ">=3.10"
 
 dependencies = []
@@ -26,6 +27,11 @@ dev = [
     "mkdocs-material",
     "pydoc-markdown"
 ]
+
+[project.urls]
+Homepage = "https://bitplane.net/dev/python/cff-most"
+Repository = "https://github.com/bitplane/cff-most"
+Issues = "https://github.com/bitplane/cff-most/issues"
 
 [build-system]
 build-backend = "flit_core.buildapi"
