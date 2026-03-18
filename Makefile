@@ -3,7 +3,7 @@
 		pre-commit update-pre-commit
 
 
-PROJECT_NAME := example_package
+PROJECT_NAME := cff_most
 
 
 all: dev coverage  ## builds everything
