@@ -8,9 +8,10 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10"
 
-dependencies = [
+dependencies = []
 
-]
+[project.scripts]
+cff-most = "cff_most.cli:main"
 
 [project.optional-dependencies]
 dev = [
